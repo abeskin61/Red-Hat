@@ -78,8 +78,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
     The Users screen opens.
 
-    
-![](Users_Screen.png)
+    ![](Users_Screen.png)
 
 2. Enter the new user&#39;s username and email address.
 
