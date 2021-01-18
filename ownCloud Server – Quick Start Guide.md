@@ -58,6 +58,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 1. Open [http://localhost:8080](http://localhost:8080/) in your browser of choice.
 
     The ownCloud login screen opens.
+    
     ![](Login_small.png)
 
 2. Enter the admin username and password that are stored in the .env file. Click the arrow.
