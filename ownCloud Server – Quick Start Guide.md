@@ -64,6 +64,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 2. Enter the admin username and password that are stored in the .env file. Click the arrow.
 
     The ownCloud UI opens.
+    
     ![](UI.png)
 
 ## Adding a User
