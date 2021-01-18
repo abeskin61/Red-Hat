@@ -4,7 +4,7 @@ The instructions below describe the quickest way of installation and initial con
 
 ## System Requirements
 
-ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The actual memory use of an ownCloud server depends on the number of users and files, and volume of server activity.
+ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The actual memory use of an ownCloud server depends on the number of users and files, and on how active the server is.
 
 ## Prerequisites
 
