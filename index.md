@@ -1,6 +1,7 @@
+Alexander Beskin - Technical Writing Task
 # ownCloud Server – Quick Start Guide
 
-The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker—software that packages an application and its dependencies in virtual containers that can run on any operating system. To enable this method, ownCloud maintains a [Docker container](https://hub.docker.com/r/owncloud/server/tags) for the ownCloud server, which can be bundled with the required databases using the Docker Compose tool.
+The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker, a deployment application that packages programs and its dependencies in virtual containers that can run on any operating system. To enable this method, ownCloud maintains a [Docker container](https://hub.docker.com/r/owncloud/server/tags) for the ownCloud server, which can be bundled with the required databases using the Docker Compose tool.
 
 ## System Requirements
 
@@ -65,7 +66,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
   ![State](State.png)     
 
-**Note** : Although the containers are up and running, it may still take a few minutes until ownCloud is fully functional. To know exactly when you may start using the server, run `docker-compose logs --follow owncloud` and inspect the log output. When the output shows "Starting apache daemon...", you may access the web UI.
+**Note** : Although the containers are up and running, it may still take a few minutes until ownCloud is fully functional. To know exactly when you may start using the server, run `docker-compose logs --follow owncloud` and check the log output. When the output shows "Starting apache daemon...", you may access the web UI.
 
 ## Logging In
 
@@ -108,13 +109,13 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
     The new user is added to the list of existing users.
  ![](List_Users.png)
-    You may fill in the user's full name if it is different from the username
+    You may fill in the user's full name if it is different from the username.
 
 4. Set a password for the new user:
 
     1. Hover the cursor over the new user's **Password** field.
     2. Click on the pencil icon.
-    3. Type in the user's new password and press ***Enter***.
+    3. Type in the new user's password and press ***Enter***.
  ![](Password.png)
 
 1. To enable the new user to use the ownCloud server, provide them with the following information:
