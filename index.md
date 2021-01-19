@@ -64,7 +64,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
     The output shows that all containers are up and ownCloud is accessible via port `8080` on the host machine.
 
-  ![State](State.png)     
+    ![State](State.png)     
 
 **Note** : Although the containers are up and running, it may still take a few minutes until ownCloud is fully functional. To know exactly when you may start using the server, run `docker-compose logs --follow owncloud` and check the log output. When the output shows "Starting apache daemon...", you may access the web UI.
 
