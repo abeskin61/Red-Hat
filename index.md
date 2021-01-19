@@ -102,7 +102,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
    
     Usernames may contain lowercase and uppercase letters, numbers, dashes, underscores, periods and @ signs.
 
-    Optionally, to assign the new user to a group, select the group from the Groups drop-down menu.
+    Optionally, to assign the new user to a group, select the group from the **Groups** drop-down menu.
 
 3. Click the ***Create*** button.
 
