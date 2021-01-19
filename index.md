@@ -1,6 +1,6 @@
 # ownCloud Server – Quick Start Guide
 
-The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker—software that packages an application and its dependencies in a virtual container that can run on any operating system. To enable this method, ownCloud maintains [its Docker container](https://hub.docker.com/r/owncloud/server/tags) available for installation.
+The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker—software that packages an application and its dependencies in virtual containers that can run on any operating system. To enable this method, ownCloud maintains [Docker containers](https://hub.docker.com/r/owncloud/server/tags) for the ownCloud server and its databases bundled in a Docker Compose configuration.
 
 ## System Requirements
 
