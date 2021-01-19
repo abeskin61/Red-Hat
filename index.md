@@ -4,7 +4,7 @@ The instructions below describe the quickest way of installation and initial con
 
 ## System Requirements
 
-ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The actual memory use of an ownCloud server depends on the number of users and files, and volume of server activity.
+ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The actual memory use of an ownCloud server depends on the number of users and files, and how active the server is.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
     ```
 3. Download the ownCloud `docker-compose.yml` into the current directory.
     ```    
-    wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin\_manual/examples/installation/docker/docker-compose.yml
+    wget https://raw.githubusercontent.com/owncloud/docs/master/modules/admin_manual/examples/installation/docker/docker-compose.yml
     ```
 1. Create a `.env` configuration file that contains the required configuration parameters. Set the parameters as follows:
 
@@ -65,7 +65,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
   ![State](State.png)     
 
-**Note** : Although the containers are up and running, it may still take a few minutes until ownCloud is fully functional. To know exactly when you may start using the server, run `docker-compose logs --follow owncloud` and inspect the log output. When the output shows "Starting apache daemon…", you may access the web UI.
+**Note** : Although the containers are up and running, it may still take a few minutes until ownCloud is fully functional. To know exactly when you may start using the server, run `docker-compose logs --follow owncloud` and inspect the log output. When the output shows "Starting apache daemon...", you may access the web UI.
 
 ## Logging In
 
