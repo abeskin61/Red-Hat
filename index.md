@@ -1,6 +1,6 @@
 # ownCloud Server – Quick Start Guide
 
-The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker—software that packages an application and its dependencies in virtual containers that can run on any operating system. To enable this method, ownCloud maintains [Docker containers](https://hub.docker.com/r/owncloud/server/tags) for the ownCloud server and its databases bundled in a Docker Compose configuration.
+The instructions below describe the quickest way of installation and initial configuration of a fully functional ownCloud server. This method uses Docker—software that packages an application and its dependencies in virtual containers that can run on any operating system. To enable this method, ownCloud maintains a [Docker container](https://hub.docker.com/r/owncloud/server/tags) for the ownCloud server, which can be bundled with its databases using the Docker Compose tool.
 
 ## System Requirements
 
@@ -59,7 +59,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
     ```
     docker-compose up -d
     ```
-1. When the process completes, check that all the containers have successfully started by running `docker-compose ps`.
+1. When the process is completed, check that all the containers have successfully started by running `docker-compose ps`.
 
     The output shows that all containers are up and ownCloud is accessible via port `8080` on the host machine.
 
@@ -119,7 +119,7 @@ ownCloud needs at least 128 MB of RAM, but we recommend a minimum of 512 MB. The
 
 1. To enable the new user to use the ownCloud server, provide them with the following information:
 
-    - Address for accessing the ownCloud UI: `{domain name}:8080` or `{IP address}:8080`
+    - Address for accessing the ownCloud UI: `{domain name}:8080` or `{IP address}:8080` (same as in the `.env` configuration file)
     - Username
     - Password
 
